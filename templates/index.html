@@ -12,18 +12,18 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
-    <title>Bookmark Landing Page</title>
+    <title>a date night out of this world</title>
   </head>
   <body class="font-Poppins">
     <!-- Header -->
     <header>
       <nav class="container flex items-center py-4 mt-4 sm:mt-12">
-        <div class="py-1"><img src="{{url_for('static', filename='/imgs/logo-bookmark.svg')}}" alt="" /></div>
+        <div class="py-1"><img src="https://media.discordapp.net/attachments/1159600572660461599/1162683164330819634/Figure_1uh.png" alt="" /></div>
         <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
-          <li class="cursor-pointer">Features</li>
-          <li class="cursor-pointer">Pricing</li>
-          <li class="cursor-pointer">Contact</li>
-          <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
+          <li class="cursor-pointer">the date</li>
+          <li class="cursor-pointer">the gift</li>
+          <li class="cursor-pointer">the music</li>
+<!--          <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button> -->
         </ul>
         <div class="flex sm:hidden flex-1 justify-end">
           <i class="text-2xl fas fa-bars"></i>
@@ -37,24 +37,25 @@
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
-            A Simple Bookmark Manager
+            a date night out of this world
           </h2>
           <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
-            A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites
-            load instantly. Try it for free.
+            The goal of DNOTW is to have space data (MR occurrences, plasma behavior, solar winds) accessible in a visible format, while also intriguing more users with creative ‘regular day-use’ implications. Made for space enthusiasts who want to have a galactic date, or someone curious about the visualization and sonification of an aspect of space on their birthday!
           </p>
           <div class="flex justify-center flex-wrap gap-6">
-            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
-              Get it on Chrome
+            <button type="button" onclick="scroll(0, 100)" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+              get started!
             </button>
+            <!--
             <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">
               Get it on Firefox
             </button>
+            -->
           </div>
         </div>
         <!-- Image -->
         <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="{{url_for('static', filename='/imgs/hero-bg.png')}}" alt="" />
+          <iframe src='https://my.spline.design/untitled-4632808b9840d261d3f52200db0a1958/' class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" frameborder='0' width='100%' height='100%'></iframe> 
         </div>
       </div>
       <!-- Rounded Rectangle -->
@@ -77,14 +78,110 @@
       ></div>
     </section>
 
+      <!-- FAQ -->
+      <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+
+        <div class="container">
+          <!-- Heading -->
+          <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-bookmark-blue">background</h1>
+            <p class="text-center text-bookmark-grey mt-4">
+              learn more about the science about the <i>perfect galactic night out of this world</i>.
+            </p>
+          </div>
+          <!-- FAQ Items -->
+          <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
+            <div class="flex items-center border-b py-4">
+              <span class="flex-1">What is a Magnetic Reconnection?</span>
+              <i class="text-bookmark-purple fas fa-chevron-down"></i>
+            </div>
+            <div class="flex items-center border-b py-4">
+              <span class="flex-1">What do magnetic reconnection events cause?</span>
+              <i class="text-bookmark-purple fas fa-chevron-down"></i>
+            </div>
+            <div class="flex items-center border-b py-4">
+              <span class="flex-1">What is solar winds, solar flares, and plasma?</span>
+              <i class="text-bookmark-purple fas fa-chevron-down"></i>
+            </div>
+            <div class="flex items-center border-b py-4">
+              <span class="flex-1">How are the Northern Lights formed?</span>
+              <i class="text-bookmark-purple fas fa-chevron-down"></i>
+            </div>
+            <button type="button" class="mt-12 flex self-center btn btn-purple hover:bg-bookmark-white hover:text-black">
+              More Info
+            </button>
+          </div>
+        </div>
+      </section>
+
+    <!-- Download -->
+    <section class="py-20 mt-20">
+      <!-- Heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue">sources</h1>
+        <p class="text-center text-bookmark-grey mt-4">
+          the dots and digits used to design and deliver a dazzling date for you.
+        </p>
+      </div>
+      <!-- Cards -->
+      <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
+        <!-- Card 1 -->
+        <div class="flex flex-col rounded-md shadow-md lg:mt-2">
+          <div class="p-6 flex flex-col items-center text-center">
+            <img src="https://media.discordapp.net/attachments/1159600572660461599/1162674987627450488/image.png" alt="" />
+            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">solar wind data</h3>
+            <p class="mb-2 text-bookmark-grey font-light">NOAA's Wang-Sheeley-Arge (WSA)-Enlil is a large-scale, physics-based prediction model of the heliosphere</p>
+          </div>
+          <hr class="border-b border-bookmark-white" />
+          <div class="flex p-6">
+            <button type="button" onclick="window.location.href='https://www.ngdc.noaa.gov/enlil/';" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
+              view dataset
+            </button>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="flex flex-col rounded-md shadow-md lg:mt-2">
+          <div class="p-6 flex flex-col items-center text-center">
+            <img src="https://media.discordapp.net/attachments/1159600572660461599/1162675013829275650/image.png" alt="" />
+            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">interplanetary magnetic field data</h3>
+            <p class="mb-2 text-bookmark-grey font-light">NASA's OMNIWeb (from Geotail, ACE, and Wind satellites, Earth shifted)</p>
+          </div>
+          <hr class="border-b border-bookmark-white" />
+          <div class="flex p-6">
+            <button type="button" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black" onclick="window.location.href='https://omniweb.gsfc.nasa.gov/ftpbrowser/mag_iwa.html';">
+              view dataset
+            </button>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="flex flex-col rounded-md shadow-md lg:mt-2">
+          <div class="p-6 flex flex-col items-center text-center">
+            <img src="https://cdn.discordapp.com/attachments/1159600572660461599/1162675038462410802/image.png" alt="" />
+            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">solar wind particle plasma data</h3>
+            <p class="mb-2 text-bookmark-grey font-light">NASA's OMNIWeb (from Geotail, ACE, and Wind satellites, Earth shifted)</p>
+          </div>
+          <hr class="border-b border-bookmark-white" />
+          <div class="flex p-6">
+            <button type="button" onclick="window.location.href='https://omniweb.gsfc.nasa.gov/ftpbrowser/pla_iwa.html';" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
+              view dataset
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  
+
+
     <!-- Features -->
-    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+    <section class="bg-bookmark-white py-20">
       <!-- Heading -->
       <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
         <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
         <p class="text-center text-bookmark-grey mt-4">
-          Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between
-          your devices so you can access them on the go.
+          three steps to build your perfect date night. (imagine a calendar input for a date here). source code linked at the bottom through the github logo.
         </p>
       </div>
       <!-- Feature #1 -->
@@ -100,12 +197,11 @@
           </div>
           <!-- Content -->
           <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+            <h1 class="text-3xl text-bookmark-blue">the date</h1>
             <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-              Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control
-              over how you manage your favourite sites.
+              learn about the magnetic reconnection events that occurred or will occur on your date, and what it means (the effects on space weather which impacts satellites and power systems; potential northern light sightings)! this information is generated by analyzing the vector components of interplanetary magnetic field data and solar wind plasma particle data from the Geotail, ACE, and Wind satellites.
             </p>
-            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">generate</button>
           </div>
         </div>
         <!-- Rounded Rectangle -->
@@ -131,18 +227,17 @@
           <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
-              src="{{url_for('static', filename='/imgs/illustration-features-tab-2.png')}}"
+              src="https://cdn.discordapp.com/attachments/1159600572660461599/1162676843254653038/animated_from_images.gif"
               alt=""
             />
           </div>
           <!-- Content -->
           <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Intelligent search</h1>
+            <h1 class="text-3xl text-bookmark-blue">the gift</h1>
             <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-              Our powerful search feature will help you find saved sites in no time at all. No need to crawl through all
-              of your bookmarks.
+              want a spacey gift unique for your special day? solar wind prediction data from WSA-Enlil visualized with the enlilviz Python module used to make pretty patterns. currently, it looks like a latte art which would be cute on a coffee, but ideally it should have looked like a flower like <u><a href="https://svs.gsfc.nasa.gov/4392/">Bridgman’s gorgeous visualization</a></u>. (if given more time, the user can customize the colors of the image!)
             </p>
-            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">generate</button>
           </div>
         </div>
         <!-- Rounded Rectangle -->
@@ -166,18 +261,19 @@
         <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <!-- Image -->
           <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-            <img
+            <!-- <img
               class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
               src="{{url_for('static', filename='/imgs/illustration-features-tab-3.png')}}"
               alt=""
-            />
+            /> -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1n9whBbBKoL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
           </div>
           <!-- Content -->
           <div class="flex flex-1 flex-col items-center lg:items-start">
-            <h1 class="text-3xl text-bookmark-blue">Share your bookmarks</h1>
+            <h1 class="text-3xl text-bookmark-blue">the music</h1>
             <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-              Easily share your bookmarks and collections with others. Create a shareable link that you can send at the
-              click of a button.
+              set the ambiance for your date night ✨. spotify curated a playlist of songs that are out of this world. (if given more time, this would have been a sonogram of plasma data, unique to the day requested, and adjusted to the right vibe.)
             </p>
             <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
           </div>
@@ -200,108 +296,17 @@
       </div>
     </section>
 
-    <!-- Download -->
-    <section class="py-20 mt-20">
-      <!-- Heading -->
-      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-        <h1 class="text-3xl text-center text-bookmark-blue">Download the extension</h1>
-        <p class="text-center text-bookmark-grey mt-4">
-          We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to
-          prioritize.
-        </p>
-      </div>
-      <!-- Cards -->
-      <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
-        <!-- Card 1 -->
-        <div class="flex flex-col rounded-md shadow-md lg:mb-16">
-          <div class="p-6 flex flex-col items-center">
-            <img src="{{url_for('static', filename='/imgs/logo-chrome.svg')}}" alt="" />
-            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Chrome</h3>
-            <p class="mb-2 text-bookmark-grey font-light">Minimum version 62</p>
-          </div>
-          <hr class="border-b border-bookmark-white" />
-          <div class="flex p-6">
-            <button type="button" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
-              Add & Install Extension
-            </button>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="flex flex-col rounded-md shadow-md lg:my-8">
-          <div class="p-6 flex flex-col items-center">
-            <img src="{{url_for('static', filename='/imgs/logo-firefox.svg')}}" alt="" />
-            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Firefox</h3>
-            <p class="mb-2 text-bookmark-grey font-light">Minimum version 62</p>
-          </div>
-          <hr class="border-b border-bookmark-white" />
-          <div class="flex p-6">
-            <button type="button" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
-              Add & Install Extension
-            </button>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="flex flex-col rounded-md shadow-md lg:mt-16">
-          <div class="p-6 flex flex-col items-center">
-            <img src="{{url_for('static', filename='/imgs/logo-opera.svg')}}" alt="" />
-            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Opera</h3>
-            <p class="mb-2 text-bookmark-grey font-light">Minimum version 62</p>
-          </div>
-          <hr class="border-b border-bookmark-white" />
-          <div class="flex p-6">
-            <button type="button" class="flex-1 btn btn-purple hover:bg-bookmark-white hover:text-black">
-              Add & Install Extension
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="bg-bookmark-white py-20">
-      <div class="container">
-        <!-- Heading -->
-        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-          <h1 class="text-3xl text-center text-bookmark-blue">Frequently Asked Questions</h1>
-          <p class="text-center text-bookmark-grey mt-4">
-            Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.
-          </p>
-        </div>
-        <!-- FAQ Items -->
-        <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
-          <div class="flex items-center border-b py-4">
-            <span class="flex-1">What is a Bookmark?</span>
-            <i class="text-bookmark-purple fas fa-chevron-down"></i>
-          </div>
-          <div class="flex items-center border-b py-4">
-            <span class="flex-1">How can I request a new browser?</span>
-            <i class="text-bookmark-purple fas fa-chevron-down"></i>
-          </div>
-          <div class="flex items-center border-b py-4">
-            <span class="flex-1">Is there a mobile app?</span>
-            <i class="text-bookmark-purple fas fa-chevron-down"></i>
-          </div>
-          <div class="flex items-center border-b py-4">
-            <span class="flex-1">What about other Chromium browsers?</span>
-            <i class="text-bookmark-purple fas fa-chevron-down"></i>
-          </div>
-          <button type="button" class="mt-12 flex self-center btn btn-purple hover:bg-bookmark-white hover:text-black">
-            More Info
-          </button>
-        </div>
-      </div>
-    </section>
 
     <!-- Contact Us -->
     <section class="bg-bookmark-purple text-white py-20">
       <div class="container">
         <div class="sm:w-3/4 lg:w-2/4 mx-auto">
-          <p class="font-light uppercase text-center mb-8">35,000+ ALREADY JOINED</p>
-          <h1 class="text-3xl text-center">Stay up-to-date with what we’re doing</h1>
+          <p class="font-light uppercase text-center mb-8">35,000+ DEFINITELY ALREADY JOINED</p>
+          <h1 class="text-3l text-center">don't have a date? contact us to find your very own astronomy aficionado to take on a perfect galactic night out of this world!</h1>
           <div class="flex flex-col sm:flex-row gap-6 mt-8">
             <input
               type="text"
-              placeholder="Enter your email address"
+              placeholder=" enter your email address"
               class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"
             />
             <button type="button" class="btn bg-bookmark-red hover:bg-bookmark-white hover:text-black">
@@ -318,14 +323,13 @@
         <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
           <img src="{{url_for('static', filename='/imgs/logo-bookmark-white.png')}}" alt="" />
           <ul class="flex text-white uppercase gap-12 text-xs">
-            <li class="cursor-pointer">Features</li>
-            <li class="cursor-pointer">Pricing</li>
-            <li class="cursor-pointer">Contact</li>
+            <li class="cursor-pointer">the date</li>
+            <li class="cursor-pointer">the gift</li>
+            <li class="cursor-pointer">the music</li>
           </ul>
         </div>
         <div class="flex gap-10 mt-12 md:mt-0">
-          <li><i class="text-white text-2xl fab fa-twitter"></i></li>
-          <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
+          <li><a href="https://github.com/cheollie/dnotw"><i class="text-white text-2xl fab fa-square-github"></i></a></li>
         </div>
       </div>
     </footer>
